@@ -76,6 +76,13 @@ section p {
   padding-top: 0.7rem;
   color: rgba(124, 135, 152, 1);
   margin-bottom: 2.5rem;
+  cursor: pointer;
+}
+
+.unit-item:hover,
+.unit-item:active {
+  background: rgba(252, 118, 20, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 section a {
@@ -92,4 +99,12 @@ section a {
   color: rgba(255, 255, 255, 1);
   padding: 0.75rem 6.8rem;
   text-decoration: none;
+  cursor: pointer;
 }
+
+section a:hover,
+section a:active {
+  background: rgba(255, 255, 255, 1);
+  color: rgba(252, 118, 20, 1);
+}
+
