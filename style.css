@@ -4,20 +4,18 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* text-align: center; */
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 375px; */
   background: rgba(19, 21, 24, 1);
   margin: 10rem auto;
 }
 
 .main-data {
-  display: none;
+  /* display: none; */
   position: relative;
   height: 360px;
   width: 327px;
@@ -118,7 +116,7 @@ section a:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* display: none; */
+  display: none;
   height: 360px;
   width: 327px;
   border-radius: 15px;
