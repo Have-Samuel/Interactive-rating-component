@@ -10,14 +10,27 @@
 body {
   width: 375px;
   background: rgba(19, 21, 24, 1);
-  /* margin: 10rem auto; */
+  margin: 10rem auto;
 }
 
 .main-data {
+  position: relative;
   height: 360px;
   width: 327px;
   border-radius: 15px;
   background: radial-gradient(98.96% 98.96% at 50% 0%, hsl(215, 20%, 17%) 0%, hsl(216, 24%, 12%) 100%);
+}
+
+.star {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 24px;
+  top: 24px;
+  background: url('./images/icon-star.svg'), rgba(38, 46, 56, 1);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
 }
 
 section h1 {
@@ -48,7 +61,6 @@ section p {
   gap: 1rem;
   list-style: none;
   justify-content: center;
-
 }
 
 .unit-item {
