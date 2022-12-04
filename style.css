@@ -4,12 +4,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 
 body {
   width: 375px;
   background: rgba(19, 21, 24, 1);
-  margin: 9.5rem auto;
+  /* margin: 10rem auto; */
 }
 
 .main-data {
@@ -18,3 +19,49 @@ body {
   border-radius: 15px;
   background: radial-gradient(98.96% 98.96% at 50% 0%, hsl(215, 20%, 17%) 0%, hsl(216, 24%, 12%) 100%);
 }
+
+section h1 {
+  font-family: 'Overpass', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  padding: 5rem 1.5rem 0.3rem 1.5rem;
+}
+
+section p {
+  color: #969fad;
+  font-family: 'Overpass', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.unit-items {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+  justify-content: center;
+
+}
+
+.unit-item {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  background: rgba(38, 46, 56, 1);
+  font-family: 'Overpass', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  padding-top: 0.7rem;
+  color: rgba(124, 135, 152, 1);
+}
+
