@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(19, 21, 24, 1);
+  background: rgb(251, 251, 252);
   margin: 10rem auto;
 }
 
