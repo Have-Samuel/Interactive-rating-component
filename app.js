@@ -1,7 +1,7 @@
 const mainList = document.getElementById('add-modal');
 const thankYouButton = document.querySelector('.main-data button');
-// const listItemElements = mainList.querySelectorAll('li');
 const backdrop = document.getElementById('backdrop');
+const listItemElements = mainList.querySelectorAll('li');
 
 // Shows the backdrop
 const toggleBackdrop = () => {
@@ -20,6 +20,3 @@ const backdropClickHandler = () => {
 
 thankYouButton.addEventListener('click', toggleMainList);
 backdrop.addEventListener('click', backdropClickHandler);
-// for (const listItemEl of listItemElements) {
-//   console.log(listItemEl);
-// }
