@@ -1,7 +1,12 @@
 const mainList = document.getElementById('numbers');
-const thankYouBtn = 
+const thankYouButton = document.querySelector('section button');
 // const listItemElements = mainList.querySelectorAll('li');
 
-for (const listItemEl of listItemElements) {
-  console.log(listItemEl);
-}
+const toggleMainList = () => {
+  mainList.classList.toggle('visible');
+};
+
+thankYouButton.addEventListener('click', toggleMainList);
+// for (const listItemEl of listItemElements) {
+//   console.log(listItemEl);
+// }

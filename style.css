@@ -35,7 +35,7 @@ body {
   border-radius: 50%;
 }
 
-section h1 {
+.main-data h1 {
   font-family: 'Overpass', sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -46,7 +46,7 @@ section h1 {
   padding: 5rem 1.5rem 0.3rem 1.5rem;
 }
 
-section p {
+.main-data p {
   color: #969fad;
   font-family: 'Overpass', sans-serif;
   font-size: 14px;
@@ -88,7 +88,7 @@ section p {
   color: rgba(255, 255, 255, 1);
 }
 
-section button {
+.main-data button {
   height: 45px;
   width: 279px;
   border-radius: 22.5px;
@@ -106,13 +106,13 @@ section button {
   border: none;
 }
 
-section button:hover,
-section button:active {
+.main-data button:hover,
+.main-data button:active {
   background: rgba(255, 255, 255, 1);
   color: rgba(252, 118, 20, 1);
 }
 
-.display.visible {
+.thanks-note.visible {
   display: block;
   animation: fade-slide-in 0.3s ease-out forwards;
 }
@@ -149,7 +149,7 @@ section button:active {
   border-radius: 30px;
 }
 
-section h2 {
+.thanks-note h2 {
   margin: 1rem 0 1rem 0;
   color: rgba(255, 255, 255, 1);
   text-align: center;
