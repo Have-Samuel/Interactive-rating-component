@@ -1,5 +1,5 @@
-const mainList = document.getElementById('numbers');
-const thankYouButton = document.querySelector('section button');
+const mainList = document.getElementById('add-modal');
+const thankYouButton = document.querySelector('.main-data button');
 // const listItemElements = mainList.querySelectorAll('li');
 
 const toggleMainList = () => {
