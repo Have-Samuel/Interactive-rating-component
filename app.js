@@ -22,13 +22,13 @@ const backdropClickHandler = () => {
 const ratingHandler = () => {
   const digitSelect = () => {
 
-  }
+  };
 };
 
 const submitHandler = () => {
-  const paragraph = document.querySelector('.paragraph');
-  paragraph.innerText = 'Hello';
-  console.log(paragraph);
+  const form = document.getElementsByTagName('form');
+  form.label = '';
+  console.log(form);
 };
 
 thankYouButton.addEventListener('click', toggleMainList);
