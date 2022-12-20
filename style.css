@@ -17,9 +17,12 @@ body {
 .main-data {
   /* display: none; */
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 360px;
-  width: 327px;
-  border-radius: 15px;
+  width: 347px;
+  border-radius: 18px;
   background: radial-gradient(98.96% 98.96% at 50% 0%, hsl(215, 20%, 17%) 0%, hsl(216, 24%, 12%) 100%);
 }
 
@@ -43,10 +46,11 @@ body {
   letter-spacing: 0;
   text-align: left;
   color: rgba(255, 255, 255, 1);
-  padding: 5rem 1.5rem 0.3rem 1.5rem;
+  padding: 4rem 1.5rem 0.3rem 1.5rem;
 }
 
 .main-data p {
+  width: 360px;
   color: #969fad;
   font-family: 'Overpass', sans-serif;
   font-size: 14px;
@@ -54,19 +58,55 @@ body {
   line-height: 22px;
   letter-spacing: 0;
   text-align: left;
-  padding: 0 1.5rem 1.5rem 1.5rem;
+  padding: 0 2rem 1.5rem 1.5rem;
 }
 
-.unit-items {
+.digits {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
-  list-style: none;
   justify-content: center;
   text-align: center;
+  margin-bottom: 2.5rem;
+  margin-left: 1rem;
 }
 
-.unit-item {
+.digits_item {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-right: -0.1rem;
+}
+
+#number {
+  width: 40px;
+  height: 50px;
+}
+
+label {
+  height: 42px;
+  width: 44px;
+  border-radius: 50%;
+  background: rgba(38, 46, 56, 1);
+  font-family: 'Overpass', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 11px;
+  padding-top: 0.7rem;
+  padding-left: 0.7rem;
+  color: rgba(124, 135, 152, 1);
+  cursor: pointer;
+  /* appearance: none; */
+  position: absolute;
+  top: 4px;
+  left: -2px;
+
+}
+
+/* .unit-item {
   height: 42px;
   width: 42px;
   border-radius: 50%;
@@ -80,7 +120,7 @@ body {
   color: rgba(124, 135, 152, 1);
   margin-bottom: 2.5rem;
   cursor: pointer;
-}
+} */
 
 .unit-item:hover,
 .unit-item:active {
@@ -90,7 +130,7 @@ body {
 
 .main-data button {
   height: 45px;
-  width: 279px;
+  width: 300px;
   border-radius: 22.5px;
   background: rgba(252, 118, 20, 1);
   font-family: 'Overpass', sans-serif;

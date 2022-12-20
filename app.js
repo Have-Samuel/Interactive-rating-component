@@ -25,6 +25,12 @@ const ratingHandler = () => {
   }
 };
 
+const submitHandler = () => {
+  const paragraph = document.querySelector('.paragraph');
+  paragraph.innerText = 'Hello';
+  console.log(paragraph);
+};
+
 thankYouButton.addEventListener('click', toggleMainList);
 backdrop.addEventListener('click', backdropClickHandler);
-submitBtn.addEventListener('click', );
+submitBtn.addEventListener('click', submitHandler);
