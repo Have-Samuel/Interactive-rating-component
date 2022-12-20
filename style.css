@@ -99,31 +99,13 @@ label {
   padding-left: 0.7rem;
   color: rgba(124, 135, 152, 1);
   cursor: pointer;
-  /* appearance: none; */
   position: absolute;
   top: 4px;
   left: -2px;
-
 }
 
-/* .unit-item {
-  height: 42px;
-  width: 42px;
-  border-radius: 50%;
-  background: rgba(38, 46, 56, 1);
-  font-family: 'Overpass', sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.2px;
-  padding-top: 0.7rem;
-  color: rgba(124, 135, 152, 1);
-  margin-bottom: 2.5rem;
-  cursor: pointer;
-} */
-
-.unit-item:hover,
-.unit-item:active {
+label:hover,
+label:active {
   background: rgba(252, 118, 20, 1);
   color: rgba(255, 255, 255, 1);
 }
@@ -199,6 +181,7 @@ label {
   text-align: center;
 }
 
+.description,
 .paragraph {
   text-align: center;
   font-family: 'Overpass', sans-serif;
