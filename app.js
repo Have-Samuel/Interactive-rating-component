@@ -26,9 +26,10 @@ const ratingHandler = () => {
 };
 
 const submitHandler = () => {
-  const form = document.getElementsByTagName('form');
-  form.label = '';
-  console.log(form);
+  const form = document.getElementById('numbers');
+  const input = document.querySelectorAll('#number');
+  form.input = '';
+  console.log(input.value);
 };
 
 thankYouButton.addEventListener('click', toggleMainList);
