@@ -1,7 +1,6 @@
 const thanksNote = document.getElementById('add-modal');
 const thankYouButton = document.querySelector('.main-data button');
 const backdrop = document.getElementById('backdrop');
-// const numberRatings = document.getElementById('numbers');
 const submitBtn = document.getElementById('submit-btn');
 let selectedValue;
 
