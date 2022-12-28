@@ -20,8 +20,8 @@ const backdropClickHandler = () => {
 };
 
 const submitHandler = () => {
-  const input = document.querySelectorAll('input[name="fav_number"]');
-  for (let i = 0; i < input.length; i + 1) {
+  const input = document.querySelectorAll('input[name="fav_number"]'); // number selector for the rating
+  for (let i = 0; i < input.length; i++) {
     if (input[i].checked) {
       selectedValue = input[i].value;
       break;

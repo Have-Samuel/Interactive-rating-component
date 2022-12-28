@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 360px;
+  height: 370px;
   width: 347px;
   border-radius: 18px;
   background: radial-gradient(98.96% 98.96% at 50% 0%, hsl(215, 20%, 17%) 0%, hsl(216, 24%, 12%) 100%);
@@ -50,7 +50,6 @@ body {
 }
 
 .main-data p {
-  width: 360px;
   color: #969fad;
   font-family: 'Overpass', sans-serif;
   font-size: 14px;
@@ -66,7 +65,7 @@ body {
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   margin-left: 1rem;
 }
 
