@@ -1,8 +1,9 @@
 const thanksNote = document.getElementById('add-modal');
 const thankYouButton = document.querySelector('.main-data button');
 const backdrop = document.getElementById('backdrop');
-const numberRatings = document.getElementById('numbers');
+// const numberRatings = document.getElementById('numbers');
 const submitBtn = document.getElementById('submit-btn');
+let selectedValue;
 
 // Shows the backdrop
 const toggleBackdrop = () => {
@@ -19,17 +20,16 @@ const backdropClickHandler = () => {
   toggleMainList();
 };
 
-const ratingHandler = () => {
-  const digitSelect = () => {
-
-  };
-};
-
 const submitHandler = () => {
-  const form = document.getElementById('numbers');
-  const input = document.querySelectorAll('#number');
-  form.input = '';
-  console.log(input.value);
+  const input = document.querySelectorAll('input[name="fav_number"]');
+  for (let i = 0; i < input.length; i + 1) {
+    if (input[i].checked) {
+      selectedValue = input[i].value;
+      break;
+    }
+  }
+  const selectedNum = document.getElementById('selectNum');
+  selectedNum.innerText = selectedValue;
 };
 
 thankYouButton.addEventListener('click', toggleMainList);
