@@ -27,8 +27,7 @@ const submitHandler = () => {
       break;
     }
   }
-  const numDiv = document.querySelector('.selected-para');
-  const selectedNum = numDiv.getElementById('selectNum');
+  const selectedNum = document.getElementById('selectNum');
   selectedNum.innerText = selectedValue;
 };
 
