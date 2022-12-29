@@ -110,7 +110,7 @@ label:active {
 }
 
 input[type="radio"]:checked + label {
-  background-color: rgb(211, 216, 224);
+  background-color: #7c8798;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -144,7 +144,7 @@ input[type="radio"]:checked + label {
 }
 
 .thanks-note {
-  display: flex;
+  /* display: flex; */
   display: none;
   flex-direction: column;
   justify-content: center;
@@ -179,21 +179,43 @@ input[type="radio"]:checked + label {
   text-decoration: none;
 }
 
+.selected-para {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph {
+  color: #fc7614;
+  padding: 0.3rem;
+  background-color: #262e38;
+  font-family: 'Overpass', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 193px;
+  border-radius: 22.5px;
+}
+
 .thanks-note h2 {
   margin: 1rem 0 1rem 0;
   color: rgba(255, 255, 255, 1);
   text-align: center;
+  font-family: 'Overpass', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
 }
 
-.description,
-.paragraph {
+.description {
   text-align: center;
+  color: #969fad;
   font-family: 'Overpass', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 24px;
   letter-spacing: 0;
-  color: rgba(150, 159, 173, 1);
 }
 
 #backdrop {
@@ -211,4 +233,12 @@ input[type="radio"]:checked + label {
 #backdrop.visible {
   display: block;
   pointer-events: all;
+}
+
+@media (min-width: 1200px) {
+  .main-data {
+    height: 416px;
+    width: 412px;
+    border-radius: 30px;
+  }
 }
