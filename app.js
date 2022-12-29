@@ -14,7 +14,7 @@ const toggleMainList = () => {
   toggleBackdrop();
 };
 
-// To remve the backdrop
+// To remove the backdrop
 const backdropClickHandler = () => {
   toggleMainList();
 };

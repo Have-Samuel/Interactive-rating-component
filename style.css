@@ -109,6 +109,11 @@ label:active {
   color: rgba(255, 255, 255, 1);
 }
 
+input[type="radio"]:checked + label {
+  background-color: rgb(211, 216, 224);
+  color: rgba(255, 255, 255, 1);
+}
+
 .main-data button {
   height: 45px;
   width: 300px;
