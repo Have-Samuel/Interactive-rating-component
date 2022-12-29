@@ -5,10 +5,10 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -48,7 +48,7 @@ Users should be able to:
 
 ### Useful resources
 
-[Javascript](https://www.javascripttutorial.net/javascript-dom/javascript-radio-button/) - This helped me for making the selection of the numbers while rating. I really liked this pattern and will use it going forward.
+- [Javascript](https://www.javascripttutorial.net/javascript-dom/javascript-radio-button/) - This helped me for making the selection of the numbers while rating. I really liked this pattern and will use it going forward.
 - [Stackoverflow](https://stackoverflow.com/questions/1431726/css-selector-for-a-checked-radio-buttons-label) - This helped me to target the checked buttons. I 
 
 ## Author
