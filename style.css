@@ -158,7 +158,7 @@ input[type="radio"]:checked + label {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: contain;
-  margin: 0 5rem 0.5rem 5rem;
+  margin: 0 5rem;
 }
 
 /* .select {
@@ -179,16 +179,15 @@ input[type="radio"]:checked + label {
 
 .paragraph {
   color: #fc7614;
-  padding: 0.3rem;
+  padding: 0.5rem 1rem;
   background-color: #262e38;
   font-family: 'Overpass', sans-serif;
-  font-size: 15px;
   font-weight: 400;
-  line-height: 24px;
   letter-spacing: 0;
   text-align: center;
-  width: 193px;
   border-radius: 22.5px;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .thanks-note h2 {
@@ -295,5 +294,27 @@ input[type="radio"]:checked + label {
     height: 108px;
     width: 162px;
     margin: 2.8rem 8.1rem 2rem 7.6rem;
+  }
+
+  .selected-para {
+    /* height: 32px; */
+    /* width: 193px; */
+    /* left: 624px;
+    top: 380px; */
+    /* border-radius: 0; */
+    /* display: flex;
+    justify-content: center; */
+  }
+
+  .paragraph {
+    height: 24px;
+    width: 193px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 3rem;
+    background-color: #262e38;
+    border-radius: 22.5px;
   }
 }
