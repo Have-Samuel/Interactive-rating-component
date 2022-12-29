@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - [Github](https://github.com/Have-Samuel/Interactive-rating-component)
-- [Live Link](https://stupendous-axolotl-bfa285.netlify.app/)
+- [Live Link](https://rating-component1.netlify.app/)
 
 ### Built with
 
