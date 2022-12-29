@@ -161,7 +161,7 @@ input[type="radio"]:checked + label {
   margin: 0 5rem 0.5rem 5rem;
 }
 
-.select {
+/* .select {
   margin: 0 5rem;
   width: 50%;
   color: #fc7614;
@@ -170,7 +170,7 @@ input[type="radio"]:checked + label {
   border-radius: 30px;
   border: none;
   text-decoration: none;
-}
+} */
 
 .selected-para {
   display: flex;
@@ -274,7 +274,6 @@ input[type="radio"]:checked + label {
     line-height: 19px;
     letter-spacing: 2px;
     margin-left: 2.4rem;
-    /* margin-top: 1rem; */
     text-align: center;
   }
 
@@ -282,5 +281,19 @@ input[type="radio"]:checked + label {
   .main-data button:active {
     background: rgba(255, 255, 255, 1);
     color: rgba(252, 118, 20, 1);
+  }
+
+  .thanks-note {
+    height: 416px;
+    width: 412px;
+    border-radius: 30px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  }
+
+  .illustration {
+    height: 108px;
+    width: 162px;
+    margin: 2.8rem 8.1rem 2rem 7.6rem;
   }
 }
