@@ -132,19 +132,12 @@ input[type="radio"]:checked + label {
   border: none;
 }
 
-.main-data button:hover,
-.main-data button:active {
-  background: rgba(255, 255, 255, 1);
-  color: rgba(252, 118, 20, 1);
-}
-
 .thanks-note.visible {
   display: block;
   animation: fade-slide-in 0.3s ease-out forwards;
 }
 
 .thanks-note {
-  /* display: flex; */
   display: none;
   flex-direction: column;
   justify-content: center;
@@ -240,5 +233,54 @@ input[type="radio"]:checked + label {
     height: 416px;
     width: 412px;
     border-radius: 30px;
+  }
+
+  .star {
+    height: 48px;
+    width: 48px;
+    left: 42px;
+    top: 32px;
+  }
+
+  .main-data h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0;
+    text-align: left;
+    padding: 5rem 10.2rem 0.94rem 2.8rem;
+  }
+
+  .main-data p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    padding: 0 2rem 1.5rem 2.8rem;
+  }
+
+  .digits {
+    gap: 0.5rem;
+    margin-left: 1.3rem;
+  }
+
+  .main-data button {
+    height: 45px;
+    width: 341px;
+    border-radius: 22.5px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 2px;
+    margin-left: 2.4rem;
+    /* margin-top: 1rem; */
+    text-align: center;
+  }
+
+  .main-data button:hover,
+  .main-data button:active {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(252, 118, 20, 1);
   }
 }
