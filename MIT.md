@@ -1,4 +1,4 @@
-## Copyright 2021, [Have Samuel]
+## Copyright 2022, [Have Samuel]
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this [Product preview card component ] and associated documentation files, to deal in the [APP TYPE] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [APP TYPE], and to permit persons to whom the [Product preview card component ] is furnished to do so, subject to the following conditions:
